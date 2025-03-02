@@ -24,6 +24,20 @@ def set_custom_css():
         .block-container {
             max-width: 1200px;
         }
+        /* File Uploader Styling */
+    .stFileUploader > label {
+       background-color: #4CAF50;
+       color: white;
+       padding: 10px 20px;
+       border-radius: 5px;
+       cursor: pointer;
+}
+
+     .stFileUploader > label:hover {
+         background-color: #45a049;
+}
+
+        
         .stButton>button {
             background: linear-gradient(90deg, #00d4ff, #0072ff);
             color: white;
